@@ -150,7 +150,7 @@
         font-size: 24px;
     }
 }
-@media screen and (min-width:1628px) {
+@media screen and (min-width:1428px) {
     .carrossel__container{
         display: flex;
         margin: 0 10vw 3em 10vw;
