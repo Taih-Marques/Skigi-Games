@@ -1,0 +1,26 @@
+@import url(./style/header.css);
+@import url(./style/banner.css);
+@import url(./style/carrossel.css);
+@import url(./style/topicos.css);
+@import url(./style/contato.css);
+@import url(./style/rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@300;400;500;700&display=swap');
+:root {
+    --cor-de-fundo: rgb(27, 40, 56);
+    --cor-de-fundo2: linear-gradient(97.54deg, #02223a 35.49%, #255678 165.37%);
+    --cor-de-titulo: rgb(166, 219, 255);
+    --cor-de-fonte: white;
+    --cor-secundaria: rgb(0, 15, 24);
+    --cor-secundaria2: rgb(1, 10, 15);
+    --fonte-primaria: "Cinzel";
+    --fonte-secundaria: "Poppins";
+    --fonte-terciaria:"Josefin Sans";
+    --cor-de-link: rgb(125, 123, 123);
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 400;
+}

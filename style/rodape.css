@@ -1,0 +1,40 @@
+hr{
+    margin: 0;
+    border-color: white;
+}
+.rodape{
+    background-color: var(--cor-secundaria2);
+}
+
+.rodape__titulo{
+    color: var(--cor-de-fonte);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.rodape__licenca{
+    text-decoration: none;
+    color: var(--cor-de-link);
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lista__sociais{
+    display: none;
+}
+@media screen and (min-width:1024px) {
+    .lista__sociais{
+        display: block;
+    }
+    .rodape{
+        padding: 0.5em 5em;
+    }
+}
+@media screen and (min-width:1628px) {
+    
+    .rodape{
+        padding: 2em 15em;
+    }
+}

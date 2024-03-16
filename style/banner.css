@@ -1,0 +1,68 @@
+.banner {
+    font-family: var(--fonte-secundaria);
+    background: var(--cor-de-fundo2);
+    color: var(--cor-de-fonte);
+    text-align: center;
+}
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--cor-de-fonte);
+    color: var(--cor-de-fonte);
+    border-radius: 14px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-de-fonte);
+    background: url(../assets/pesquisa.svg) no-repeat;
+    background-position: 1em;
+    background-size: 1.5em;
+}
+
+
+
+.container__banner-img {
+    width: 100%;
+}
+.banner__texto {
+    font-weight: 500;
+    padding: 0 2.5em 1em;
+    margin: 1em 0;
+}
+@media screen and (min-width: 1024px) {
+    .banner__pesquisa{
+        width: 50%;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 10em;
+    }
+    
+}
+
+@media screen and (min-width:1628px){
+    .banner__pesquisa{
+        width: 35%;
+    }
+    .banner__pesquisa::placeholder {
+        font-size: 20px;
+        background-position: 29em;
+        color: var(--cor-de-link);
+    }
+    .container__banner-img{
+        width: 100vw;
+        height: 80vh;
+    }
+    .banner__texto{
+        padding: 1em 15em;
+        font-size: 26px;
+    }
+}
