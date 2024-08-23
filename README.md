@@ -1,6 +1,5 @@
 # Skiki Games
 Modelo de site de distribuição de jogos digitais para computadores.
-Site baseado em projeto do curso da Bóticario de desenvolvimento Web
 
 link da demo: [Shiki-Games](https://skiki-games.vercel.app)
 
